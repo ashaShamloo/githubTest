@@ -23,5 +23,7 @@ a:visited {
   text-decoration: none;
   display: inline-block;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: rgb(109, 41, 41);
+}

@@ -1,92 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>githubTest</title>
-    <link rel="stylesheet" href="styles.css" />
-<style>
-/* This style sets the width of all images to 100%: */
-img {
-  width: 100%;
-}
-</style>
-</head>
-<body>
+    <title>navigation menu</title>
+    <style>
+      ul {
+        background-color: rgb(192, 213, 226);
 
-<h2>Width/Height Attributes or Style?</h2>
-
-<p>The first image uses the width attribute (set to 128 pixels), 
-  but the style in the head section overrides it, and sets the width to 100%.</p>
-
-<img src="/Pics/img_girl.jpg" alt="HTML5 Icon" style="width: 128px;height: 128px;"
-
-<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
-
-<img src="/Pics/Baby Boss.jpg" alt="HTML5 Icon" style="width: 128px; height: 128px;">
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      li :hover {
+        background-color: blueviolet;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        text-align: center;
+        padding: 16px;
+        display: block;
+        color: chartreuse;
+        text-decoration: none;
+      }
+    </style>
   </head>
+
   <body>
-    <h1 id="c4">Bottomn as a link</h1>
-    <p>click the bottomn to go to the google.com</p>
-    <a href="/Pics/Baby Boss.jpg" title="google" target="_blanket"
-      >Go to search engine</a
-    >
-    <a href="#c4">jump to chapter 4</a>
-    <p>hsxbsdhucuddcs
-      <br>
-      hjsdshjhsljuadd
-      <br>
-      hjsdhbjhs
-      <br>
-      <br>
-      <pre>hbjshx
-        xsmsnhb
-        h bhbs
-
-
-
-
-        msnjhsb
-        mhmsbhb
-        hbhbshb
-
-
-
-        mnsbnhxsb
-
-        mbhxbgbass
-        hbbxs
-        mbhbsjh
-
-
-
-        sbjhbxshbb
-
-
-
-        hmbxbshbah
-      </pre>
-      <img src="https://i.gadgets360cdn.com/large/jpg_to_pdf_1591980583835.jpg?downsize=950:*" alt="W3Schools.com" style="width:104px;height:142px;">
-      <img src="/Pics/pic_trulli.jpg" style="width: 500px, height: 600;" alt="Trulli">
-      <a href="#c4">go to chapter 4</a>
-      <img src="/Pics/programming.gif" style="width: 50px; height: 50px;">
-      <h2>Image as a Link</h2>
-
-<p>The image is a link. You can click on it.</p>
-
-<a href="#c4" target="_blanket">
-<img src="/Pics/smiley.gif" alt="HTML tutorial" style="float: left; width:42px;height:42px;">
-<img src="/Pics/smiley.gif" alt="HTML tutorial" style="float: right; width:42px;height:42px;">
-</a>
-    </p>
-    <p>
-      <img src="Pics/img_chania.jpg"; style="float:right; width: 125px; height: 125px;">
-      This is a paragraph with floating image
-        </p>
-        <p>
-          <img src="/Pics/Baby Boss.jpg" style="float:left; width: 200px; height: 300px;" alt="Baby boss">
-          This is a paragraph with floating image on the left
-        </p>
-    </body>
+    <h1>navigation menu</h1>
+    <ul>
+      <li><a href="menu">Menu</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="home">Home</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="us">Us</a></li>
+    </ul>
+  </body>
 </html>

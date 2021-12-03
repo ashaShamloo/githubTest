@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>navigation menu</title>
+    <title>divs with classes</title>
     <style>
-      ul {
-        background-color: rgb(192, 213, 226);
-
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-      }
-      li :hover {
+      .city {
         background-color: blueviolet;
-      }
-      li {
-        float: left;
-      }
-      li a {
-        text-align: center;
-        padding: 16px;
-        display: block;
-        color: chartreuse;
-        text-decoration: none;
+        color: aqua;
+        padding: 30px;
+        margin: 40px;
+        font-family: "Courier New", Courier, monospace;
+        border: 1px solid blue;
       }
     </style>
   </head>
-
   <body>
-    <h1>navigation menu</h1>
-    <ul>
-      <li><a href="menu">Menu</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="home">Home</a></li>
-      <li><a href="contact">Contact</a></li>
-      <li><a href="us">Us</a></li>
-    </ul>
+    <div class="city">
+      <h1>This is my first heading with class</h1>
+      <p>Ye in this paragraph you can see what is going on</p>
+    </div>
+    <div class="city">
+      <h1>this is the second heading with the same class</h1>
+      <p>in this paragraph you can see the same happening</p>
+    </div>
+    <div class="city">
+      <h1>this is the third heading with class</h1>
+      <p>the third one is no ecception from the others</p>
+    </div>
   </body>
 </html>
